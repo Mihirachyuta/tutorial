@@ -1,7 +1,7 @@
 import cocotb
 from cocotb.triggers import Timer, RisingEdge
 
-
+#Test comment
 @cocotb.test()
 async def or_test(dut):
     a = (0, 0, 1, 1)
